@@ -1,17 +1,20 @@
 {
-  "name": "0914-ssrblog",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^4.15.6",
-    "@astrojs/check": "^0.9.3",
-    "typescript": "^5.6.2"
-  }
+    "name": "0914-ssrblog",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro check && astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@astrojs/check": "^0.9.3",
+        "@astrojs/tailwind": "^5.1.0",
+        "@astrojs/vercel": "^7.8.1",
+        "astro": "^4.15.6",
+        "tailwindcss": "^3.4.11",
+        "typescript": "^5.6.2"
+    }
 }
